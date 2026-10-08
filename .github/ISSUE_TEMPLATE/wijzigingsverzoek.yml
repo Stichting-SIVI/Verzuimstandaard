@@ -1,0 +1,59 @@
+name: Wijzigingsverzoek
+description: Dien een voorstel in voor aanpassing van de Verzuimstandaard.
+title: "[Wijzigingsverzoek] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gebruik dit formulier voor voorstellen tot wijziging van de Verzuimstandaard.
+
+        SIVI registreert het verzoek hier. De inhoudelijke behandeling en besluitvorming vindt plaats binnen de daarvoor ingerichte werkgroepen.
+
+        Plaats geen persoonsgegevens, medische gegevens of andere vertrouwelijke informatie in GitHub.
+
+  - type: dropdown
+    id: koppelvlak
+    attributes:
+      label: Koppelvlak
+      options:
+        - Werkgever – Arbodienst
+        - Arbodienst – Verzekeraar/Volmacht
+        - Werkgever – Verzekeraar/Volmacht
+        - Meerdere koppelvlakken
+        - Algemeen
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: Huidige release
+      placeholder: Bijvoorbeeld 2026
+
+  - type: input
+    id: bericht
+    attributes:
+      label: Bericht
+      description: Indien van toepassing.
+
+  - type: textarea
+    id: aanleiding
+    attributes:
+      label: Aanleiding
+      description: Welk probleem of welke behoefte is aanleiding voor dit wijzigingsverzoek?
+    validations:
+      required: true
+
+  - type: textarea
+    id: voorstel
+    attributes:
+      label: Voorgestelde wijziging
+      description: Beschrijf wat volgens jou zou moeten veranderen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Verwachte impact
+      description: Beschrijf indien bekend wat de gevolgen zijn voor implementaties of ketenpartners.

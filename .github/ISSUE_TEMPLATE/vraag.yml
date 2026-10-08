@@ -1,0 +1,50 @@
+name: Vraag over de Verzuimstandaard
+description: Stel een vraag over de toepassing of interpretatie van de Verzuimstandaard.
+title: "[Vraag] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gebruik dit formulier voor vragen over de Verzuimstandaard.
+
+        Plaats geen persoonsgegevens, medische gegevens of andere vertrouwelijke informatie in GitHub.
+
+  - type: dropdown
+    id: koppelvlak
+    attributes:
+      label: Koppelvlak
+      options:
+        - Werkgever – Arbodienst
+        - Arbodienst – Verzekeraar/Volmacht
+        - Werkgever – Verzekeraar/Volmacht
+        - Meerdere koppelvlakken
+        - Algemeen
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: Release
+      description: Op welke release heeft de vraag betrekking?
+      placeholder: Bijvoorbeeld 2026
+
+  - type: input
+    id: bericht
+    attributes:
+      label: Bericht
+      description: Indien van toepassing, op welk bericht heeft de vraag betrekking?
+
+  - type: textarea
+    id: vraag
+    attributes:
+      label: Vraag
+      description: Beschrijf de vraag zo concreet mogelijk.
+    validations:
+      required: true
+
+  - type: textarea
+    id: toelichting
+    attributes:
+      label: Aanvullende toelichting
+      description: Voeg eventueel relevante context of een voorbeeld toe, zonder vertrouwelijke gegevens.
