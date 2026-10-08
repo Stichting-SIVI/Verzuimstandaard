@@ -26,16 +26,26 @@ Documentatie die voor meerdere koppelvlakken geldt, wordt centraal vanuit deze r
 
 Hieronder valt de koppelvlakbeschrijving.
 
-## Vragen en wijzigingsverzoeken
+## Vragen
 
-Vragen over de Verzuimstandaard en wijzigingsverzoeken worden centraal via deze omgeving ingediend.
+Heb je een vraag over de toepassing of interpretatie van de Verzuimstandaard?
 
-SIVI beoordeelt vragen en geeft waar mogelijk antwoord vanuit de bestaande standaard. Als een vraag aanleiding geeft tot wijziging van de standaard, maken we hier een wijzigingsverozek voor.
+Maak dan een **Vraag over de Verzuimstandaard** aan via Issues.
 
-De inhoudelijke behandeling en besluitvorming over wijzigingsverzoeken vindt plaats binnen de daarvoor ingerichte SIVI-werkgroepen.
+SIVI beantwoordt je vraag.
+
+## Wijzigingsverzoeken
+
+Iedereen kan een wijzigingsverzoek indienen.
+
+Ook kan een vraag over de standaard leiden tot een wijzigingsverzoek.
+
+De inhoudelijke behandeling over wijzigingen vindt plaats binnen de daarvoor ingerichte SIVI-werkgroepen voordat SIVI over de wijziging besluit.
+
+## Discussie
+
+GitHub Discussions wordt gebruikt voor algemene uitwisseling over de Verzuimstandaard en voor onderwerpen die niet direct een vraag of wijzigingsverzoek zijn.
 
 ## Beheer
 
-SIVI beheert de Verzuimstandaard.
-
-Alleen SIVI kan wijzigingen aanbrengen in de officiële standaard.
+SIVI beheert de Verzuimstandaard en kan als enige wijzigingen aanbrengen.
