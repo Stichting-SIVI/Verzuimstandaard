@@ -1,6 +1,8 @@
 name: Vraag over de Verzuimstandaard
 description: Stel een vraag over de toepassing of interpretatie van de Verzuimstandaard.
 title: "[Vraag] "
+labels:
+    - vraag
 body:
   - type: markdown
     attributes:

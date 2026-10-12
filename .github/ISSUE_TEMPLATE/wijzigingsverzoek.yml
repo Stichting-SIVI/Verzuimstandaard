@@ -1,6 +1,8 @@
 name: Wijzigingsverzoek
 description: Dien een voorstel in voor aanpassing van de Verzuimstandaard.
 title: "[Wijzigingsverzoek] "
+labels:
+    - wijzigingsverzoek
 body:
   - type: markdown
     attributes:
