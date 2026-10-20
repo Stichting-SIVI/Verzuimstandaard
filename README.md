@@ -9,8 +9,11 @@ Deze repository vormt de centrale ingang voor de Verzuimstandaard.
 De Verzuimstandaard bestaat uit drie koppelvlakken:
 
 - **Werkgever – Arbodienst**
+	https://github.com/Stichting-SIVI/Verzuimstandaard-Werkgevers---Arbodiensten
 - **Arbodienst – Verzekeraar/Volmacht**
+	https://github.com/Stichting-SIVI/Verzuimstandaard-Arbodiensten---Verzekeraars-Volmachten
 - **Werkgever – Verzekeraar/Volmacht**
+	https://github.com/Stichting-SIVI/Verzuimstandaard-Werkgevers---Verzekeraars-Volmachten
 
 Ieder koppelvlak heeft een eigen repository met de bijbehorende releases en documentatie.
 
